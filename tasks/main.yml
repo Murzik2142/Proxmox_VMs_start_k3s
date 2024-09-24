@@ -1,0 +1,7 @@
+---
+# tasks file for Proxmox_VMs_start_k3s
+- name: Test proxmox
+  ansible.builtin.import_tasks: task_1_preinit.yml
+  
+- name: Start VMs
+  ansible.builtin.import_tasks: task_2_start_vm.yml
