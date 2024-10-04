@@ -5,3 +5,6 @@
   
 - name: Start VMs
   ansible.builtin.import_tasks: task_2_start_vm.yml
+
+- name: Pause
+  ansible.builtin.import_tasks: task_3_pause.yml
